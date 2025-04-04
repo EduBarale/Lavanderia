@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@100..900&display=swap');
 
-@media (max-width:1200px) {
+@media (max-width:768px) {
+    .principal {
+        background-image: url("/assets/45-jackson-five-and-sofa_1_orig.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+    }
+    .body {
+        font-size: 16px;
+    }
     .container {
-        flex-direction: column-reverse;
-        padding: 5% ;
+        flex-direction: column-reverse;   
         width: auto;
+        grid-template-columns: 1fr;
     }
     .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5% ;
+        flex-direction: column-reverse;   
+    }
+    .terciario {
+        flex-direction: column;
+        margin: 0 2em;
+    }
+    .secundario__imagem,.terciario__imagem {
+        width: 100%;
+        height: auto;
     }
     
 }
