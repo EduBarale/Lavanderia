@@ -6,6 +6,10 @@
         padding: 5% ;
         width: auto;
     }
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5% ;
+    }
     
 }
 
