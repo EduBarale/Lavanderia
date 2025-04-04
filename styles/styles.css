@@ -6,6 +6,8 @@
         background-size: cover;
         background-position: center;
         height: 50vh;
+        padding: 0;
+        margin: 0;
     }
     .body {
         font-size: 16px;
@@ -22,7 +24,7 @@
         flex-direction: column;
         margin: 0 2em;
     }
-    .secundario__imagem,.terciario__imagem {
+    .container__imagem,.secundario__imagem,.terciario__imagem {
         width: 100%;
         height: auto;
     }
