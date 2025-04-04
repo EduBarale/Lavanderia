@@ -1,19 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@100..900&display=swap');
 
 @media (max-width:1200px) {
-    .cabecalho {
-        padding: 10%;  
-    }    
-    .cabecalho__menu {
-        justify-content: center;
-    }  
-    .apresentacao {
+    .container {
         flex-direction: column-reverse;
         padding: 5% ;
-    }
-    .apresentacao__conteudo {
         width: auto;
     }
+    
 }
 
 :root {
