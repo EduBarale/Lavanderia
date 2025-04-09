@@ -8,6 +8,7 @@
         grid-template-columns: 1fr;
         padding: 1em;
         height: auto;
+        background-image: none;
     }
     
     .principal {
